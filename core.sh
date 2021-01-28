@@ -1,5 +1,6 @@
 #!/bin/bash
 
 sudo core-daemon &
-echo "Starting..."
+echo "Starting..."&
+wait 1
 sudo core-gui
